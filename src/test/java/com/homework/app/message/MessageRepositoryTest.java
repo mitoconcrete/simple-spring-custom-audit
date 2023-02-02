@@ -8,16 +8,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
-import org.springframework.web.servlet.DispatcherServlet;
 
 @SpringBootTest
 class MessageRepositoryTest {
 
   @Autowired
   MessageRepository messageRepository;
-
-  @Autowired
-  DispatcherServlet servlet;
 
   @Test
   @DisplayName("create Message Test")
