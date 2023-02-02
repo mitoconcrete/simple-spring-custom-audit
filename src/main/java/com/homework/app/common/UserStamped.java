@@ -8,7 +8,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 @Getter
 @MappedSuperclass
-public class UserStamped<T> {
+public class UserStamped {
 
   private String createdBy;
   private String modifiedBy;
